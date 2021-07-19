@@ -1,0 +1,21 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
+  "compilerOptions": {
+      "rootDir": "src",
+      "outDir": "dist", 
+      "types": ["jest", "svelte"],
+      "allowSyntheticDefaultImports": true,
+      "target": "ES2019",
+      "moduleResolution": "node",
+      "allowJs": true,
+      "isolatedModules": true,
+      "importsNotUsedAsValues":"preserve",
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+  }
+}
