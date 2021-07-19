@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "advocate_c41_midbold";
+  src: url("fonts/advocate_c41_mid_bold-webfont.woff2") format("woff2"),
+    url("fonts/advocate_c41_mid_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "advocate_c41_midregular";
+  src: url("fonts/advocate_c41_mid_regular-webfont.woff2") format("woff2"),
+    url("fonts/advocate_c41_mid_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
